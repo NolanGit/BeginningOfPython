@@ -1,4 +1,4 @@
-#coding=utf-8
+#coding=utf-8 
 #生成器只在被调用的时候才计算数值，节省资源
 g=(x*x for x in range(10))
 print(g)

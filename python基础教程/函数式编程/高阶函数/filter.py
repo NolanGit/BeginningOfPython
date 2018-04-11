@@ -1,4 +1,4 @@
-#coding=utf-8
+#coding=utf-8 
 def is_odd(i):
 	return(i%2==1)
 L=[1,2,3,4,5,6,7,8,9]

@@ -1,4 +1,4 @@
-#coding=UTF-8
+#coding=UTF-8 
 #要生成[1x1, 2x2, 3x3, ..., 10x10]
 '''普通方法'''
 def xxx(x):

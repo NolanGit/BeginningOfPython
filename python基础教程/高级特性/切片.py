@@ -1,4 +1,4 @@
-#coding=utf-8
+#coding=utf-8 
 #取list的前三个元素，注意包括的是0、1、2，而3没有包括
 AA=['A','B','C','D','E']
 print(AA[0:3])

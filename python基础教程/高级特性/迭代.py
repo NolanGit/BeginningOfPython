@@ -1,4 +1,4 @@
-#coding=utf-8
+#coding=utf-8 
 dic={'a':1,'b':2,'c':3}
 for aaa in dic:
 	print(aaa)

@@ -1,4 +1,4 @@
-#coding=utf-8
+#coding=utf-8 
 #可以用函数isinstance()判断是否为Iterable可迭代对象
 from collections import Iterable
 print(isinstance([],Iterable))

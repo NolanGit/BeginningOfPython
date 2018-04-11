@@ -1,4 +1,4 @@
-#coding=utf-8
+#coding=utf-8 
 #高阶函数就是将函数作为参数传递到函数里边
 #map就是依次将参数传入所写的函数，然后输出结果
 from __future__ import division  
