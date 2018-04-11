@@ -1,3 +1,4 @@
+#coding=utf-8 
 '''
 list：[]有顺序，用append和pop、insert来操作
 tuple：[]初始化后不能修改，有顺序

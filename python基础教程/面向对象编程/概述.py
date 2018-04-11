@@ -1,4 +1,4 @@
-#coding=utf-8
+#coding=utf-8 
 #面向过程编程
 std1={'name':'peter','score':98}
 std2={'name':'marry','score':89}

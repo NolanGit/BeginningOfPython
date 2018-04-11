@@ -1,4 +1,4 @@
-#【调用函数】
+#coding=utf-8 
 print(abs(-20))
 #强制类型转换
 a=int('123')

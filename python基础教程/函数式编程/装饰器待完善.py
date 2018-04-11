@@ -1,4 +1,4 @@
-#coding=utf-8
+#coding=utf-8 
 def log(func):
 	def wrapper(*args,**kw):#wrapper()函数内，首先打印日志，再紧接着调用原始函数
 		print('call %s():'%func.__name__)

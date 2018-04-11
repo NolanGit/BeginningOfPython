@@ -1,4 +1,4 @@
-#coding=utf-8
+#coding=utf-8 
 #一般情况的求和函数
 def calc_sum(*args):
 	ax=0

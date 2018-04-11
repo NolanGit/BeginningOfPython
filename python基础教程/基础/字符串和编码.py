@@ -1,4 +1,4 @@
-
+#coding=utf-8 
 print('%s%s' %('hello',' python'))
 print('%.2f' % 3.1415926)
 

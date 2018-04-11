@@ -1,4 +1,4 @@
-#coding=utf-
+#coding=utf-8 
 class Animal(object):
 	"""docstring for Animal"""
 	def __init__(self, name):

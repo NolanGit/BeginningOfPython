@@ -1,4 +1,4 @@
-#coding=utf-8
+#coding=utf-8 
 #判断对象类型可以使用type()
 print(type(123))
 print(type('123'))

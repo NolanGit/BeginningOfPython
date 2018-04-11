@@ -1,4 +1,4 @@
-
+#coding=utf-8 
 dict={'A':1,'B':2,'C':3}#其中A,B,C称为dict的key
 print(dict['B'])
 #dict必须使用不可变对象作为key

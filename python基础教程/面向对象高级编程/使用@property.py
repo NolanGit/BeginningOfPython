@@ -1,4 +1,4 @@
-#coding=utf-8
+#coding=utf-8 
 #使用一般程序写的限制条件
 class Student1(object):
 	

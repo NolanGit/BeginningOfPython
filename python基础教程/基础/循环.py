@@ -1,4 +1,4 @@
-#【for循环】
+#coding=utf-8 
 #循环遍历数组,for x in ...循环就是把每个元素代入变量x，然后执行缩进块的语句
 numbers=['1','2','3','4','5']
 for number in numbers:

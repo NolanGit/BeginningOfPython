@@ -1,4 +1,4 @@
-#coding=utf-8
+#coding=utf-8 
 #一个子类可以继承多个父类
 class Animal(object):
 	pass

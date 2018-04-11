@@ -1,4 +1,4 @@
-#coding=utf-8
+#coding=utf-8 
 class Student1(object):
 	"""docstring for Student"""
 	def __init__(self, name, score):

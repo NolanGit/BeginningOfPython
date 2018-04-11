@@ -1,4 +1,4 @@
-#coding=utf-8
+#coding=utf-8 
 #实现X！
 def fact(n):
 	if n==1:
