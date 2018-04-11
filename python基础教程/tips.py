@@ -3,9 +3,7 @@
 for i in range(1,4):
 	print i#打印的是123
 
-
-	
-	def set_gender(self,gender):
+def set_gender(self,gender):
 		if (gender in('male','female')):
 			self.__gender=gender
 		else:
