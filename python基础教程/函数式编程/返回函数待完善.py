@@ -21,3 +21,20 @@ f1=lazy_sum(1,2,3)
 f2=lazy_sum(1,2,3)
 print(f1==f2)#return false
 #参数全部保存在返回的函数中
+
+#闭包
+def count():
+	fs=[]
+	for i in range(1,4):
+		def fn():
+			return i*i
+		fs.append(fn)
+	return fs
+func1,func2,func3=count()
+print(func1(),func2(),func3())
+
+#利用闭包返回一个计数器函数，每次调用它返回递增整数
+def createCounter():
+	def counter():
+		
+	return counter
