@@ -1,2 +1,3 @@
 ﻿# Python相关
-good python
+good & nice python！
+
