@@ -3,7 +3,6 @@
 #string 切片的时候，倒序切片可以使用stringname[::-1]
 for i in range(1,4):
 	print i#打印的是123
-
 def set_gender(self,gender):
 		if (gender in('male','female')):
 			self.__gender=gender
@@ -19,7 +18,8 @@ def createCounter():
 	return counter
 counterA = createCounter()
 print(counterA(), counterA(), counterA(), counterA(), counterA()) # 1 2 3 4 5
-counterB = createCounter()
+counterB =
+ createCounter()
 if [counterB(), counterB(), counterB(), counterB()] == [1, 2, 3, 4]:
 	print('测试通过!')
 else:
