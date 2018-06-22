@@ -3,6 +3,10 @@ import smtplib
 import time
 from email.mime.text import MIMEText
 from email.utils import formataddr
+import email.mime.multipart
+import email.mime.text
+from email.mime.multipart import MIMEMultipart
+from email.mime.application import MIMEApplication
 
 
 class MailSender(object):
@@ -16,24 +20,29 @@ class MailSender(object):
         self.content = content
 
     def send_it(self):
-        msg = MIMEText(self.content, 'plain', 'utf-8',)
+        msg = MIMEMultipart(self.content, 'plain', 'utf-8',)
         msg['From'] = formataddr([self.sender_name, self.my_sender])
         msg['to'] = '管理员'
         msg['Subject'] = self.subject
         server = smtplib.SMTP_SSL("smtp.qq.com", 465)
         server.login(self.my_sender, self.my_pass)
+
+        part = MIMEApplication(open('C:\\Users\\sunhaoran\\JustForFun.txt', 'rb').read())
+        part.add_header('Content-Disposition', 'attachment', filename="JustForFun.txt")
+        msg.attach(part)
+
         server.sendmail(self.my_sender, self.receiver_addr, msg.as_string())
         server.quit()
         print(time.strftime('%Y-%m-%d %H:%M:%S',
                             time.localtime(time.time())) + '邮件发送成功')
 
 
-my_sender = 'XXX@qq.com'
-my_pass = 'XXXXXX'
-ReceiverAddr = ['XXX@live.com', 'XXX@qq.com']
+my_sender = '345753110@qq.com'
+my_pass = 'kohdrckbrfoicahj'
+ReceiverAddr = ['shr1213@live.com']
 SenderName = 'SenderName'
 Subject = 'Subject'
 Content = 'TestContent'
 MailSender = MailSender(my_sender, my_pass, SenderName,
                         ReceiverAddr, Subject, Content)
-MailSender.SendIt()
+MailSender.send_it()
