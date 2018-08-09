@@ -56,6 +56,7 @@ N9 = 0x69
 TAB = 0x09
 ALT = 0x12
 BACK = 0x08
+CAPS = 0x14
 MINUS = 0xBD
 SPACE = 0x20
 
@@ -169,6 +170,11 @@ def minus():
 def space():
     PressKey(SPACE)
     ReleaseKey(SPACE)
+
+
+def caps():
+    PressKey(CAPS)
+    ReleaseKey(CAPS)
 
 
 def hold_time():
